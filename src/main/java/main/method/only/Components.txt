@@ -5,3 +5,7 @@ Components of Quartz
      b) Cron trigger(by time)
 3. Scheduler - get trigger+job
 
+
+
+https://www.youtube.com/watch?v=6ogkeEn1h7o
+http://www.cronmaker.com/

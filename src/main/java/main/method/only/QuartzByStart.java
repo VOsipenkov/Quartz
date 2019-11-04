@@ -4,7 +4,7 @@ import org.quartz.*;
 import org.quartz.impl.StdScheduler;
 import org.quartz.impl.StdSchedulerFactory;
 
-public class QuartzMain {
+public class QuartzByStart {
     public static void main(String[] args) throws SchedulerException {
         JobDetail simpleJobDetail = JobBuilder
                 .newJob(HelloJob.class)
