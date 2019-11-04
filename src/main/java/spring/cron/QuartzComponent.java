@@ -17,7 +17,7 @@ public class QuartzComponent {
         return TriggerBuilder
                 .newTrigger()
                 .withIdentity("cronTrigger")
-                .withSchedule(SimpleScheduleBuilder.simpleSchedule().withIntervalInSeconds(5)).build();
+                .withSchedule(SimpleScheduleBuilder.simpleSchedule().repeatForever().withIntervalInSeconds(5)).build();
     }
 
     @Bean
