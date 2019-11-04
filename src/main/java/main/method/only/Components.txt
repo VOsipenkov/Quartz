@@ -1,0 +1,7 @@
+Components of Quartz
+1. Job - a task with execute()
+2. Trigger - start program at a given time
+     a) Simple trigger
+     b) Cron trigger(by time)
+3. Scheduler - get trigger+job
+
